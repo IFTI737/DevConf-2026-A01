@@ -86,3 +86,52 @@ nav ul li a {
     
     
 }
+
+/* Meet the Speakers Section */
+.speakers {
+    padding: 80px 8%;
+}
+
+.speakers h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.speaker-card {
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+   
+}
+
+.speaker-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.speaker-info {
+    padding: 18px;
+}
+
+.field {
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.speaker-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.designation  {
+    font-size: 14px;
+    color: #575757;
+}
