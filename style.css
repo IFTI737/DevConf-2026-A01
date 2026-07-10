@@ -23,7 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 8%;
+    padding: 20px 6%;
 }
 
 nav ul {
@@ -35,7 +35,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: #575757;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Hero Section Style */
@@ -46,7 +46,7 @@ nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    height: 90vh;
 
     display: grid;
     justify-content: center;
@@ -285,4 +285,59 @@ nav ul li a {
 .hackathon .blue-btn{
     padding: 18px 40px;
     font-size: 18px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #0D1B2A;
+    padding: 25px 5%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social img {
+    width: 28px;
+}
+
+footer hr {
+    border: 1px solid #334155;
+    margin-bottom: 15px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom p {
+    color: #C8CDD5;
+    font-size: 12px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #C8CDD5;
+    font-size: 12px;
 }
