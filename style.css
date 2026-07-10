@@ -87,7 +87,7 @@ nav ul li a {
     
 }
 
-/* Meet the Speakers Section */
+/* Speakers Section */
 .speakers {
     padding: 80px 8%;
 }
@@ -134,4 +134,94 @@ nav ul li a {
 .designation  {
     font-size: 14px;
     color: #575757;
+}
+
+
+/* Pricing Section */
+
+.pricing {
+    padding: 80px 8%;
+}
+
+.pricing-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing-title h2 {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.pricing-title p {
+    color: #575757;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.pricing-card {
+    border: 1px solid #575757;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.plan {
+    color: #575757;
+    font-size: 14px;
+    font-weight: 600;
+}
+.pricing-card h2 {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.price-info {
+    color: #888888;
+    margin-bottom: 25px;
+}
+
+.pricing-card hr {
+    margin-bottom: 25px;
+    
+
+}
+
+.pricing-card ul {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.pricing-card ul li {
+    margin-bottom: 15px;
+}
+
+.pricing-card button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.middle {
+    background-color: #0D1B2A;
+    color: white;
+}
+.middle .plan {
+    color :#93C5FD;
+}
+
+.left button {
+    background-color: #ffffff;
+    color :#2563EB;
+    border: 2px solid #2563EB;
+    font-weight: 700;
+    
+}
+
+.right{
+    background-color: #F8F9FB;
 }
