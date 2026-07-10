@@ -1,0 +1,88 @@
+/* Reset Style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* Common Style */
+
+.blue-btn {
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Navbar Style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #575757;
+    font-size: 14px;
+}
+
+/* Hero Section Style */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.5)),
+        url("./images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+
+    display: grid;
+    gap: 20px;
+    
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.hero-content h1 em {
+    font-style: italic;
+}
+
+.hero-content p {
+    font-size: 22px;
+    max-width: 800px;
+    font-weight: 200;
+    margin-bottom: 200px;
+}
+
+.hero-content .blue-btn {
+    padding: 25px 62px;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 18px;
+    
+    
+}
