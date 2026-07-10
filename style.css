@@ -225,3 +225,64 @@ nav ul li a {
 .right{
     background-color: #F8F9FB;
 }
+
+/* Hackathon Section */
+
+.hackathon{
+    padding: 90px 8%;
+    background-color: #0D1B2A;
+}
+
+.hackathon-content{
+    text-align: center;
+}
+
+.hackathon-label{
+    color: #60A5FA;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.hackathon-content h2{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.hackathon-text{
+    color: #C8CDD5;
+    font-size: 22px;
+    max-width: 900px;
+    margin: 0 auto 70px;
+    line-height: 1.5;
+}
+
+.hackathon-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    margin-bottom: 70px;
+}
+
+.hackathon-card{
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 35px;
+}
+
+.hackathon-card h3{
+    color: #2563EB;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.hackathon-card p{
+    color: white;
+    font-size: 24px;
+}
+
+.hackathon .blue-btn{
+    padding: 18px 40px;
+    font-size: 18px;
+}
