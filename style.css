@@ -67,9 +67,6 @@ nav ul li a {
     font-weight: 700;
 }
 
-.hero-content h1 em {
-    font-style: italic;
-}
 
 .hero-content p {
     font-size: 22px;
@@ -79,7 +76,7 @@ nav ul li a {
 }
 
 .hero-content .blue-btn {
-    padding: 25px 62px;
+    padding: 25px 60px;
     width: 30%;
     margin: 0 auto;
     font-size: 18px;
